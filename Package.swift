@@ -11,13 +11,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MyRadar_iOS_SDK",
-            url: "https://github.com/MyRadar/MyRadar-iOS-SDK-SPM/releases/download/1.0.0/MyRadar_iOS_SDK.xcframework.zip",
-            checksum: "bfd03189eb1d05070a8b2967924039e16168bc9b31a4d8e0fba35cfba31c6bd4"
+            url: "https://github.com/MyRadar/MyRadar-iOS-SDK-SPM/releases/download/1.0.1/MyRadar_iOS_SDK.xcframework.zip",
+            checksum: "ece49044be7677d46e903e00c2bbdd7b35263212d291f361e828e85700f19d0f"
         ),
         .binaryTarget(
             name: "Tectonic",
-            url: "https://github.com/MyRadar/MyRadar-iOS-SDK-SPM/releases/download/1.0.0/Tectonic.xcframework.zip",
-            checksum: "d2e61829640095e783a36725bbd22a50a864453a603132cd2a69381f064f7225"
+            url: "https://github.com/MyRadar/MyRadar-iOS-SDK-SPM/releases/download/1.0.1/Tectonic.xcframework.zip",
+            checksum: "1f5c4e670cd3d8d9ee90d39a3003148bff8bb42f08e8b98ce5d8d4929e830030"
         ),
     ]
 )
