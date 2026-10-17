@@ -6,18 +6,18 @@ let package = Package(
     name: "MyRadarSDK",
     platforms: [.iOS("16.6")],
     products: [
-        .library(name: "MyRadarSDK", targets: ["MyRadar_iOS_SDK", "Tectonic"]),
+        .library(name: "MyRadarSDK", targets: ["MyRadar_iOS_SDK", "MyRadarSDKEngine"]),
     ],
     targets: [
         .binaryTarget(
             name: "MyRadar_iOS_SDK",
-            url: "https://github.com/MyRadar/MyRadar-iOS-SDK-SPM/releases/download/1.0.1/MyRadar_iOS_SDK.xcframework.zip",
-            checksum: "ece49044be7677d46e903e00c2bbdd7b35263212d291f361e828e85700f19d0f"
+            url: "https://github.com/MyRadar/MyRadar-iOS-SDK-SPM/releases/download/1.0.2/MyRadar_iOS_SDK.xcframework.zip",
+            checksum: "84a238022d5fc7ab547394236c20b54fc5981b8ddb3854bd7fe5c85b088b97e9"
         ),
         .binaryTarget(
-            name: "Tectonic",
-            url: "https://github.com/MyRadar/MyRadar-iOS-SDK-SPM/releases/download/1.0.1/Tectonic.xcframework.zip",
-            checksum: "1f5c4e670cd3d8d9ee90d39a3003148bff8bb42f08e8b98ce5d8d4929e830030"
+            name: "MyRadarSDKEngine",
+            url: "https://github.com/MyRadar/MyRadar-iOS-SDK-SPM/releases/download/1.0.2/MyRadarSDKEngine.xcframework.zip",
+            checksum: "440093b5e18efa1a2a236f0825fc6e8401c3325b40f4000e216ffa615d19cbc5"
         ),
     ]
 )
