@@ -11,13 +11,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MyRadar_iOS_SDK",
-            url: "https://github.com/MyRadar/MyRadar-iOS-SDK-SPM/releases/download/1.0.2/MyRadar_iOS_SDK.xcframework.zip",
-            checksum: "84a238022d5fc7ab547394236c20b54fc5981b8ddb3854bd7fe5c85b088b97e9"
+            url: "https://github.com/MyRadar/MyRadar-iOS-SDK-SPM/releases/download/1.1.0/MyRadar_iOS_SDK.xcframework.zip",
+            checksum: "6da0b3f388d44280cde1bcda292e467aa05fc0c8bde5e54c633eea50ea770de8"
         ),
         .binaryTarget(
             name: "MyRadarSDKEngine",
-            url: "https://github.com/MyRadar/MyRadar-iOS-SDK-SPM/releases/download/1.0.2/MyRadarSDKEngine.xcframework.zip",
-            checksum: "440093b5e18efa1a2a236f0825fc6e8401c3325b40f4000e216ffa615d19cbc5"
+            url: "https://github.com/MyRadar/MyRadar-iOS-SDK-SPM/releases/download/1.1.0/MyRadarSDKEngine.xcframework.zip",
+            checksum: "ac477c202246a887b81b3aa7c9bca09bbf21923cae2a99fb80f064eed2088699"
         ),
     ]
 )
