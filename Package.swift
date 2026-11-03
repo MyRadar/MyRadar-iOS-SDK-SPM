@@ -1,5 +1,7 @@
 // swift-tools-version: 5.9
-// MyRadar iOS SDK. Binary frameworks are attached to the matching GitHub release.
+// Release manifest. Commit this as Package.swift at the root of
+// https://github.com/ACMEAtronOmatic/MyRadar-iOS-SDK-SPM, tag the commit 1.2.0,
+// and upload the two zips to the URLs below.
 import PackageDescription
 
 let package = Package(
@@ -11,13 +13,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MyRadar_iOS_SDK",
-            url: "https://github.com/MyRadar/MyRadar-iOS-SDK-SPM/releases/download/1.1.1/MyRadar_iOS_SDK.xcframework.zip",
-            checksum: "8c47f0962f06025fb865f1ad22d0bad66402f07293c183793d48b82fcb9b56b5"
+            url: "https://github.com/MyRadar/MyRadar-iOS-SDK-SPM/releases/download/1.2.0/MyRadar_iOS_SDK.xcframework.zip",
+            checksum: "2e86acc22de72bc18e0ec910b11d74659d2097b04dd72797aa0dc48fc1c4effb"
         ),
         .binaryTarget(
             name: "MyRadarSDKEngine",
-            url: "https://github.com/MyRadar/MyRadar-iOS-SDK-SPM/releases/download/1.1.1/MyRadarSDKEngine.xcframework.zip",
-            checksum: "91e07510a6b0dce7dbc9998a8d18636812853dd4f02a459902176679c57f2b83"
+            url: "https://github.com/MyRadar/MyRadar-iOS-SDK-SPM/releases/download/1.2.0/MyRadarSDKEngine.xcframework.zip",
+            checksum: "96de3102e554b1c364b89ba9f10e25422af29c05a2d1dcb24d0daccc80b46254"
         ),
     ]
 )
