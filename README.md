@@ -20,7 +20,7 @@ https://github.com/MyRadar/MyRadar-iOS-SDK-SPM
 and add the **MyRadarSDK** product to your app target. Or in `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/MyRadar/MyRadar-iOS-SDK-SPM", from: "2.2.1")
+.package(url: "https://github.com/MyRadar/MyRadar-iOS-SDK-SPM", from: "2.3.0")
 ```
 
 ## Quick start
